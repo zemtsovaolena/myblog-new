@@ -1,1 +1,2 @@
-web: gunicorn main:app port:8080
+web: gunicorn main:app
+process.env.PORT || 5000
