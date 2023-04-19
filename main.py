@@ -30,7 +30,7 @@ login_manager.init_app(app)
 Base = declarative_base()
 
 
-##CONFIGURE TABLES
+##CONFIGURE TABLESheroku restart
 
 class User(UserMixin, db.Model):
     __tablename__ = "users"
